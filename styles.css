@@ -1,0 +1,63 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(240, 216, 223);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: 
+    url(https://th.bing.com/th/id/R.c36e3c3611673d559b77b2e9f38bcf97?rik=B5kH1y1E138DYQ&riu=http%3a%2f%2fwww.wallpaperbetter.com%2fwallpaper%2f782%2f241%2f217%2fcalifornia-lake-lake-tahoe-1080P-wallpaper.jpg&ehk=pk6lLzMmtqvII5Ql7fQXatZXybgYwqQd4TI7QTkRUAM%3d&risl=&pid=ImgRaw&r=0);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}  
+
+.form{
+    background-color: #000000;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0);
+    width: 300px;
+    background-image: url(https://th.bing.com/th/id/R.b27a7384258228dadeef7a76a5fcb6b0?rik=lQbRSwtATH0ayA&riu=http%3a%2f%2f1.bp.blogspot.com%2f_wAdgKLxhO8I%2fTUirGV85o1I%2fAAAAAAAAAAc%2f4E_vp8y3UA8%2fs1600%2fIMG_8390_color_a.jpg&ehk=GvBUPVW4VAUxEJSn24ix7%2fZ9MuuovQAgkBv6ag8iMBA%3d&risl=&pid=ImgRaw&r=0);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.div{
+    margin-bottom: 15px;
+}
+
+.label{
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+
+}
+
+input,
+select,
+textarea{
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+input[type="checkbox"]{
+    width: auto;
+}
+input[type="Submit"]{
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+input[type="Submit"]:hover{
+    background-color: #45a049;
+}
